@@ -1,0 +1,20 @@
+[
+{
+  "directory": "C:/Users/swati/OneDrive/Atharva/GaTech/2026Recruiting/AI_OrderBook_Proj/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DBOOST_CONTAINER_DYN_LINK -DBOOST_CONTAINER_NO_LIB -DBOOST_JSON_DYN_LINK=1 -DBOOST_JSON_NO_LIB=1 -IC:/Users/swati/OneDrive/Atharva/GaTech/2026Recruiting/AI_OrderBook_Proj/include -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\orderbook.dir\\src\\OrderBook.cpp.obj -c C:\\Users\\swati\\OneDrive\\Atharva\\GaTech\\2026Recruiting\\AI_OrderBook_Proj\\src\\OrderBook.cpp",
+  "file": "C:\\Users\\swati\\OneDrive\\Atharva\\GaTech\\2026Recruiting\\AI_OrderBook_Proj\\src\\OrderBook.cpp",
+  "output": "CMakeFiles\\orderbook.dir\\src\\OrderBook.cpp.obj"
+},
+{
+  "directory": "C:/Users/swati/OneDrive/Atharva/GaTech/2026Recruiting/AI_OrderBook_Proj/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DBOOST_CONTAINER_DYN_LINK -DBOOST_CONTAINER_NO_LIB -DBOOST_JSON_DYN_LINK=1 -DBOOST_JSON_NO_LIB=1 -IC:/Users/swati/OneDrive/Atharva/GaTech/2026Recruiting/AI_OrderBook_Proj/include -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\orderbook.dir\\src\\OrderBookManager.cpp.obj -c C:\\Users\\swati\\OneDrive\\Atharva\\GaTech\\2026Recruiting\\AI_OrderBook_Proj\\src\\OrderBookManager.cpp",
+  "file": "C:\\Users\\swati\\OneDrive\\Atharva\\GaTech\\2026Recruiting\\AI_OrderBook_Proj\\src\\OrderBookManager.cpp",
+  "output": "CMakeFiles\\orderbook.dir\\src\\OrderBookManager.cpp.obj"
+},
+{
+  "directory": "C:/Users/swati/OneDrive/Atharva/GaTech/2026Recruiting/AI_OrderBook_Proj/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DBOOST_CONTAINER_DYN_LINK -DBOOST_CONTAINER_NO_LIB -DBOOST_JSON_DYN_LINK=1 -DBOOST_JSON_NO_LIB=1 -IC:/Users/swati/OneDrive/Atharva/GaTech/2026Recruiting/AI_OrderBook_Proj/include -g -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\orderbook.dir\\src\\main.cpp.obj -c C:\\Users\\swati\\OneDrive\\Atharva\\GaTech\\2026Recruiting\\AI_OrderBook_Proj\\src\\main.cpp",
+  "file": "C:\\Users\\swati\\OneDrive\\Atharva\\GaTech\\2026Recruiting\\AI_OrderBook_Proj\\src\\main.cpp",
+  "output": "CMakeFiles\\orderbook.dir\\src\\main.cpp.obj"
+}
+]

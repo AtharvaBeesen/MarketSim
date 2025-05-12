@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{198F39CF-E820-311D-9352-87E76D9F46D6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>orderbook</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">orderbook.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">orderbook.cp312-win_amd64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">orderbook.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">orderbook.cp312-win_amd64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">orderbook.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">orderbook.cp312-win_amd64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">orderbook.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">orderbook.cp312-win_amd64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/swati/AppData/Local/Programs/Python/Python312/Include" /external:I "C:/Users/swati/OneDrive/Atharva/GaTech/2026Recruiting/AI_OrderBook_Proj/build/_deps/pybind11-src/include" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug";orderbook_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";orderbook_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\include;C:\Users\swati\AppData\Local\Programs\Python\Python312\Include;C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\build\_deps\pybind11-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\include;C:\Users\swati\AppData\Local\Programs\Python\Python312\Include;C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\build\_deps\pybind11-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Debug\orderbook_core.lib;C:\Users\swati\AppData\Local\Programs\Python\Python312\libs\python312.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/swati/OneDrive/Atharva/GaTech/2026Recruiting/AI_OrderBook_Proj/build/Debug/orderbook.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/swati/OneDrive/Atharva/GaTech/2026Recruiting/AI_OrderBook_Proj/build/Debug/orderbook.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/swati/AppData/Local/Programs/Python/Python312/Include" /external:I "C:/Users/swati/OneDrive/Atharva/GaTech/2026Recruiting/AI_OrderBook_Proj/build/_deps/pybind11-src/include" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";orderbook_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";orderbook_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\include;C:\Users\swati\AppData\Local\Programs\Python\Python312\Include;C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\build\_deps\pybind11-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\include;C:\Users\swati\AppData\Local\Programs\Python\Python312\Include;C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\build\_deps\pybind11-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Release\orderbook_core.lib;C:\Users\swati\AppData\Local\Programs\Python\Python312\libs\python312.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/swati/OneDrive/Atharva/GaTech/2026Recruiting/AI_OrderBook_Proj/build/Release/orderbook.lib</ImportLibrary>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <ProgramDataBaseFile>C:/Users/swati/OneDrive/Atharva/GaTech/2026Recruiting/AI_OrderBook_Proj/build/Release/orderbook.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/swati/AppData/Local/Programs/Python/Python312/Include" /external:I "C:/Users/swati/OneDrive/Atharva/GaTech/2026Recruiting/AI_OrderBook_Proj/build/_deps/pybind11-src/include" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";orderbook_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";orderbook_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\include;C:\Users\swati\AppData\Local\Programs\Python\Python312\Include;C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\build\_deps\pybind11-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\include;C:\Users\swati\AppData\Local\Programs\Python\Python312\Include;C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\build\_deps\pybind11-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>MinSizeRel\orderbook_core.lib;C:\Users\swati\AppData\Local\Programs\Python\Python312\libs\python312.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/swati/OneDrive/Atharva/GaTech/2026Recruiting/AI_OrderBook_Proj/build/MinSizeRel/orderbook.lib</ImportLibrary>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <ProgramDataBaseFile>C:/Users/swati/OneDrive/Atharva/GaTech/2026Recruiting/AI_OrderBook_Proj/build/MinSizeRel/orderbook.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/swati/AppData/Local/Programs/Python/Python312/Include" /external:I "C:/Users/swati/OneDrive/Atharva/GaTech/2026Recruiting/AI_OrderBook_Proj/build/_deps/pybind11-src/include" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";orderbook_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";orderbook_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\include;C:\Users\swati\AppData\Local\Programs\Python\Python312\Include;C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\build\_deps\pybind11-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\include;C:\Users\swati\AppData\Local\Programs\Python\Python312\Include;C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\build\_deps\pybind11-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>RelWithDebInfo\orderbook_core.lib;C:\Users\swati\AppData\Local\Programs\Python\Python312\libs\python312.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/swati/OneDrive/Atharva/GaTech/2026Recruiting/AI_OrderBook_Proj/build/RelWithDebInfo/orderbook.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/swati/OneDrive/Atharva/GaTech/2026Recruiting/AI_OrderBook_Proj/build/RelWithDebInfo/orderbook.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/swati/OneDrive/Atharva/GaTech/2026Recruiting/AI_OrderBook_Proj/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\msys64\mingw64\bin\cmake.exe -SC:/Users/swati/OneDrive/Atharva/GaTech/2026Recruiting/AI_OrderBook_Proj -BC:/Users/swati/OneDrive/Atharva/GaTech/2026Recruiting/AI_OrderBook_Proj/build --check-stamp-file C:/Users/swati/OneDrive/Atharva/GaTech/2026Recruiting/AI_OrderBook_Proj/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\build\CMakeFiles\4.0.1\CMakeCXXCompiler.cmake;C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\build\CMakeFiles\4.0.1\CMakeRCCompiler.cmake;C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\build\CMakeFiles\4.0.1\CMakeSystem.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeCXXCompiler.cmake.in;C:\msys64\mingw64\share\cmake\Modules\CMakeCXXCompilerABI.cpp;C:\msys64\mingw64\share\cmake\Modules\CMakeCXXInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeCommonLanguageInclude.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeCompilerIdDetection.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeDetermineCXXCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeDetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeDetermineCompilerABI.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeDetermineCompilerId.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeDetermineCompilerSupport.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeDetermineRCCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeDetermineSystem.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeFindBinUtils.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeGenericSystem.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeInitializeConfigs.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeLanguageInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeParseImplicitLinkInfo.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeParseLibraryArchitecture.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeRCCompiler.cmake.in;C:\msys64\mingw64\share\cmake\Modules\CMakeRCInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeSystem.cmake.in;C:\msys64\mingw64\share\cmake\Modules\CMakeSystemSpecificInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeSystemSpecificInitialize.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeTestCXXCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeTestCompilerCommon.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeTestRCCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\MSVC-CXX.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\MSVC.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\TI-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\CompilerId\VS-10.vcxproj.in;C:\msys64\mingw64\share\cmake\Modules\ExternalProject\shared_internal_commands.cmake;C:\msys64\mingw64\share\cmake\Modules\FetchContent.cmake;C:\msys64\mingw64\share\cmake\Modules\FetchContent\CMakeLists.cmake.in;C:\msys64\mingw64\share\cmake\Modules\FindGit.cmake;C:\msys64\mingw64\share\cmake\Modules\FindPackageHandleStandardArgs.cmake;C:\msys64\mingw64\share\cmake\Modules\FindPackageMessage.cmake;C:\msys64\mingw64\share\cmake\Modules\FindPython\Support.cmake;C:\msys64\mingw64\share\cmake\Modules\FindPython3.cmake;C:\msys64\mingw64\share\cmake\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\msys64\mingw64\share\cmake\Modules\Internal\CMakeInspectCXXLinker.cmake;C:\msys64\mingw64\share\cmake\Modules\Internal\FeatureTesting.cmake;C:\msys64\mingw64\share\cmake\Modules\Linker\MSVC-CXX.cmake;C:\msys64\mingw64\share\cmake\Modules\Linker\MSVC.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Linker\Windows-MSVC.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-Determine-CXX.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-Initialize.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-MSVC-CXX.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-MSVC.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/swati/OneDrive/Atharva/GaTech/2026Recruiting/AI_OrderBook_Proj/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\msys64\mingw64\bin\cmake.exe -SC:/Users/swati/OneDrive/Atharva/GaTech/2026Recruiting/AI_OrderBook_Proj -BC:/Users/swati/OneDrive/Atharva/GaTech/2026Recruiting/AI_OrderBook_Proj/build --check-stamp-file C:/Users/swati/OneDrive/Atharva/GaTech/2026Recruiting/AI_OrderBook_Proj/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\build\CMakeFiles\4.0.1\CMakeCXXCompiler.cmake;C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\build\CMakeFiles\4.0.1\CMakeRCCompiler.cmake;C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\build\CMakeFiles\4.0.1\CMakeSystem.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeCXXCompiler.cmake.in;C:\msys64\mingw64\share\cmake\Modules\CMakeCXXCompilerABI.cpp;C:\msys64\mingw64\share\cmake\Modules\CMakeCXXInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeCommonLanguageInclude.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeCompilerIdDetection.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeDetermineCXXCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeDetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeDetermineCompilerABI.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeDetermineCompilerId.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeDetermineCompilerSupport.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeDetermineRCCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeDetermineSystem.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeFindBinUtils.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeGenericSystem.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeInitializeConfigs.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeLanguageInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeParseImplicitLinkInfo.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeParseLibraryArchitecture.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeRCCompiler.cmake.in;C:\msys64\mingw64\share\cmake\Modules\CMakeRCInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeSystem.cmake.in;C:\msys64\mingw64\share\cmake\Modules\CMakeSystemSpecificInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeSystemSpecificInitialize.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeTestCXXCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeTestCompilerCommon.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeTestRCCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\MSVC-CXX.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\MSVC.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\TI-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\CompilerId\VS-10.vcxproj.in;C:\msys64\mingw64\share\cmake\Modules\ExternalProject\shared_internal_commands.cmake;C:\msys64\mingw64\share\cmake\Modules\FetchContent.cmake;C:\msys64\mingw64\share\cmake\Modules\FetchContent\CMakeLists.cmake.in;C:\msys64\mingw64\share\cmake\Modules\FindGit.cmake;C:\msys64\mingw64\share\cmake\Modules\FindPackageHandleStandardArgs.cmake;C:\msys64\mingw64\share\cmake\Modules\FindPackageMessage.cmake;C:\msys64\mingw64\share\cmake\Modules\FindPython\Support.cmake;C:\msys64\mingw64\share\cmake\Modules\FindPython3.cmake;C:\msys64\mingw64\share\cmake\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\msys64\mingw64\share\cmake\Modules\Internal\CMakeInspectCXXLinker.cmake;C:\msys64\mingw64\share\cmake\Modules\Internal\FeatureTesting.cmake;C:\msys64\mingw64\share\cmake\Modules\Linker\MSVC-CXX.cmake;C:\msys64\mingw64\share\cmake\Modules\Linker\MSVC.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Linker\Windows-MSVC.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-Determine-CXX.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-Initialize.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-MSVC-CXX.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-MSVC.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/swati/OneDrive/Atharva/GaTech/2026Recruiting/AI_OrderBook_Proj/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\msys64\mingw64\bin\cmake.exe -SC:/Users/swati/OneDrive/Atharva/GaTech/2026Recruiting/AI_OrderBook_Proj -BC:/Users/swati/OneDrive/Atharva/GaTech/2026Recruiting/AI_OrderBook_Proj/build --check-stamp-file C:/Users/swati/OneDrive/Atharva/GaTech/2026Recruiting/AI_OrderBook_Proj/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\build\CMakeFiles\4.0.1\CMakeCXXCompiler.cmake;C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\build\CMakeFiles\4.0.1\CMakeRCCompiler.cmake;C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\build\CMakeFiles\4.0.1\CMakeSystem.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeCXXCompiler.cmake.in;C:\msys64\mingw64\share\cmake\Modules\CMakeCXXCompilerABI.cpp;C:\msys64\mingw64\share\cmake\Modules\CMakeCXXInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeCommonLanguageInclude.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeCompilerIdDetection.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeDetermineCXXCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeDetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeDetermineCompilerABI.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeDetermineCompilerId.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeDetermineCompilerSupport.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeDetermineRCCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeDetermineSystem.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeFindBinUtils.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeGenericSystem.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeInitializeConfigs.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeLanguageInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeParseImplicitLinkInfo.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeParseLibraryArchitecture.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeRCCompiler.cmake.in;C:\msys64\mingw64\share\cmake\Modules\CMakeRCInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeSystem.cmake.in;C:\msys64\mingw64\share\cmake\Modules\CMakeSystemSpecificInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeSystemSpecificInitialize.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeTestCXXCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeTestCompilerCommon.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeTestRCCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\MSVC-CXX.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\MSVC.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\TI-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\CompilerId\VS-10.vcxproj.in;C:\msys64\mingw64\share\cmake\Modules\ExternalProject\shared_internal_commands.cmake;C:\msys64\mingw64\share\cmake\Modules\FetchContent.cmake;C:\msys64\mingw64\share\cmake\Modules\FetchContent\CMakeLists.cmake.in;C:\msys64\mingw64\share\cmake\Modules\FindGit.cmake;C:\msys64\mingw64\share\cmake\Modules\FindPackageHandleStandardArgs.cmake;C:\msys64\mingw64\share\cmake\Modules\FindPackageMessage.cmake;C:\msys64\mingw64\share\cmake\Modules\FindPython\Support.cmake;C:\msys64\mingw64\share\cmake\Modules\FindPython3.cmake;C:\msys64\mingw64\share\cmake\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\msys64\mingw64\share\cmake\Modules\Internal\CMakeInspectCXXLinker.cmake;C:\msys64\mingw64\share\cmake\Modules\Internal\FeatureTesting.cmake;C:\msys64\mingw64\share\cmake\Modules\Linker\MSVC-CXX.cmake;C:\msys64\mingw64\share\cmake\Modules\Linker\MSVC.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Linker\Windows-MSVC.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-Determine-CXX.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-Initialize.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-MSVC-CXX.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-MSVC.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/swati/OneDrive/Atharva/GaTech/2026Recruiting/AI_OrderBook_Proj/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\msys64\mingw64\bin\cmake.exe -SC:/Users/swati/OneDrive/Atharva/GaTech/2026Recruiting/AI_OrderBook_Proj -BC:/Users/swati/OneDrive/Atharva/GaTech/2026Recruiting/AI_OrderBook_Proj/build --check-stamp-file C:/Users/swati/OneDrive/Atharva/GaTech/2026Recruiting/AI_OrderBook_Proj/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\build\CMakeFiles\4.0.1\CMakeCXXCompiler.cmake;C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\build\CMakeFiles\4.0.1\CMakeRCCompiler.cmake;C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\build\CMakeFiles\4.0.1\CMakeSystem.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeCXXCompiler.cmake.in;C:\msys64\mingw64\share\cmake\Modules\CMakeCXXCompilerABI.cpp;C:\msys64\mingw64\share\cmake\Modules\CMakeCXXInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeCommonLanguageInclude.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeCompilerIdDetection.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeDetermineCXXCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeDetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeDetermineCompilerABI.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeDetermineCompilerId.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeDetermineCompilerSupport.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeDetermineRCCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeDetermineSystem.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeFindBinUtils.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeGenericSystem.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeInitializeConfigs.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeLanguageInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeParseImplicitLinkInfo.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeParseLibraryArchitecture.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeRCCompiler.cmake.in;C:\msys64\mingw64\share\cmake\Modules\CMakeRCInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeSystem.cmake.in;C:\msys64\mingw64\share\cmake\Modules\CMakeSystemSpecificInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeSystemSpecificInitialize.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeTestCXXCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeTestCompilerCommon.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeTestRCCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\MSVC-CXX.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\MSVC.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\TI-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\msys64\mingw64\share\cmake\Modules\CompilerId\VS-10.vcxproj.in;C:\msys64\mingw64\share\cmake\Modules\ExternalProject\shared_internal_commands.cmake;C:\msys64\mingw64\share\cmake\Modules\FetchContent.cmake;C:\msys64\mingw64\share\cmake\Modules\FetchContent\CMakeLists.cmake.in;C:\msys64\mingw64\share\cmake\Modules\FindGit.cmake;C:\msys64\mingw64\share\cmake\Modules\FindPackageHandleStandardArgs.cmake;C:\msys64\mingw64\share\cmake\Modules\FindPackageMessage.cmake;C:\msys64\mingw64\share\cmake\Modules\FindPython\Support.cmake;C:\msys64\mingw64\share\cmake\Modules\FindPython3.cmake;C:\msys64\mingw64\share\cmake\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\msys64\mingw64\share\cmake\Modules\Internal\CMakeInspectCXXLinker.cmake;C:\msys64\mingw64\share\cmake\Modules\Internal\FeatureTesting.cmake;C:\msys64\mingw64\share\cmake\Modules\Linker\MSVC-CXX.cmake;C:\msys64\mingw64\share\cmake\Modules\Linker\MSVC.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Linker\Windows-MSVC.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-Determine-CXX.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-Initialize.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-MSVC-CXX.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-MSVC.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\src\python_bindings.cpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\build\ZERO_CHECK.vcxproj">
+      <Project>{81509960-A377-342C-AD30-0CA2AAC01DC2}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\build\orderbook_core.vcxproj">
+      <Project>{909434CC-70AD-3854-BC9F-C3C5AD85F41C}</Project>
+      <Name>orderbook_core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

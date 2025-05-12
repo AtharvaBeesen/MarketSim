@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\swati\OneDrive\Atharva\GaTech\2026Recruiting\AI_OrderBook_Proj\build\CMakeFiles\9c665ec23e13b5798ffc11e00fcfdeec\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2622C540-D93B-3F2C-AC2F-7818E53BA230}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

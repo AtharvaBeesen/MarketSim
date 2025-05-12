@@ -1,0 +1,10 @@
+^C:\USERS\SWATI\ONEDRIVE\ATHARVA\GATECH\2026RECRUITING\AI_ORDERBOOK_PROJ\BUILD\CMAKEFILES\9C665EC23E13B5798FFC11E00FCFDEEC\GENERATE.STAMP.RULE
+setlocal
+C:\msys64\mingw64\bin\cmake.exe -SC:/Users/swati/OneDrive/Atharva/GaTech/2026Recruiting/AI_OrderBook_Proj -BC:/Users/swati/OneDrive/Atharva/GaTech/2026Recruiting/AI_OrderBook_Proj/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/swati/OneDrive/Atharva/GaTech/2026Recruiting/AI_OrderBook_Proj/build/AI_OrderBook_Proj.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
