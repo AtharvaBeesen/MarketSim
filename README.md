@@ -79,6 +79,5 @@ python simulation.py
 
 - **C++**: C++17, CMake 3.10+, pybind11
 - **Python**: numpy, pandas, scikit-learn, PyTorch, stable-baselines3
-- **Build**: Boost (system, json)
 
 The system demonstrates an implementation of algorithmic trading infrastructure with market simulation and diverse agent strategies.
