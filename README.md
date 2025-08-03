@@ -6,58 +6,79 @@ A high-performance limit order book engine implemented in C++ with Python bindin
 
 ### Core Engine (C++)
 - **OrderBook**: O(log n) price/time-priority matching via balanced BSTs (`std::map`)
-- **OrderBookManager**: Multi-symbol order book management with fast order lookup
-- **Python Bindings**: Sub-millisecond cross-language calls via pybind11
+- **OrderBookManager**: Multi-symbol order book management with symbol isolation
+- **Python Bindings**: pybind11 integration for sub-millisecond cross-language calls
 
-### Trading Agents (Python)
-Six distinct algorithmic trading strategies:
+### Data Structures
+- **Order**: Limit/Market orders with client tracking and timestamp validation
+- **Trade**: Executed trade records with price, quantity, and counterparty mapping
+- **OrderBook**: Bid/Ask price levels with FIFO time priority within levels
 
-1. **Market Maker**: Fee-aware liquidity provision with dynamic spread management
-2. **Trend Follower**: Momentum-based trading with configurable thresholds
-3. **Mean Reverter**: Statistical arbitrage using rolling price averages
-4. **Liquidity Taker**: Opportunistic market order execution
-5. **Supervised Predictor**: Logistic regression for price direction prediction
-6. **RL Agent**: Tabular Q-learning with discrete state/action spaces
+## Trading Agents
 
-## Key Features
+### Rule-Based Agents
+- **MarketMaker**: Bid-ask spread management with fee-aware quoting
+- **TrendFollower**: Momentum-based trading using return thresholds
+- **MeanReverter**: Statistical arbitrage via rolling mean deviation
+- **LiquidityTaker**: Probabilistic market order execution
 
-- **High Performance**: C++ core with O(log n) order matching
-- **Multi-Symbol Support**: Concurrent order books for multiple instruments
-- **Fee-Aware Trading**: All agents incorporate transaction costs
-- **Latency Modeling**: Realistic execution delays and market impact
-- **Comprehensive Metrics**: P&L, inventory, NAV tracking per agent
-- **Extensible Framework**: Modular agent architecture for strategy development
+### ML Agents
+- **SupervisedPredictor**: Logistic regression on mid-price returns (scikit-learn)
+- **RLAgent**: Tabular Q-learning with discrete state/action spaces (PyTorch)
 
-## Simulation Engine Output:
+## Simulation Framework
 
-- **999-step backtest** with 100ms time slices
-- **Random walk price drift** with configurable volatility
-- **Dynamic liquidity reseeding** to maintain market depth
-- **2.5k+ trades** executed in 3.2 seconds across multiple symbols
+### Market Dynamics
+- Random walk price drift with configurable volatility
+- Dynamic liquidity reseeding to maintain market depth
+- Transaction costs: per-order and per-share fees
+- Latency constraints with Gaussian jitter modeling
 
-## Build & Usage
+### Backtesting Engine
+- 999-step simulation with 100ms time slices
+- Multi-symbol order book exposure (AAPL, MSFT, GOOGL)
+- Real-time P&L, inventory, and NAV tracking
+- Comprehensive trade execution logging
 
+## Performance Results
+
+The supervised learning agent achieved optimal performance:
+- **832 trades** executed over 3.2 seconds
+- **$40.3k P&L** with $48.4 average return per trade
+- **2.5k total trades** across all agents in the simulation
+
+## Build System
+
+### C++ Core
 ```bash
-# Build C++ extension
 mkdir build && cd build
 cmake ..
 make
+```
 
-# Run simulation
+### Python Dependencies
+```bash
+pip install -r python/requirements.txt
+```
+
+### Simulation Execution
+```bash
 cd python
 python simulation.py
 ```
 
+## Key Features
+
+- **High Performance**: C++ engine with O(log n) matching complexity
+- **Multi-Agent**: 6 distinct trading strategies with fee-aware execution
+- **Realistic Market**: Price drift, latency, and transaction cost modeling
+- **Extensible**: Modular agent architecture for strategy development
+- **Research Ready**: Comprehensive metrics and visualization outputs
+
 ## Dependencies
 
-- **C++**: C++17, Boost, pybind11
-- **Python**: numpy, pandas, scikit-learn, stable-baselines3, torch
+- **C++**: C++17, CMake 3.10+, pybind11
+- **Python**: numpy, pandas, scikit-learn, PyTorch, stable-baselines3
+- **Build**: Boost (system, json)
 
-## Performance
-
-- Sub-millisecond order processing
-- Real-time market data queries
-- Efficient memory management with smart pointers
-- Thread-safe order book operations
-
-The system provides a production-ready foundation for algorithmic trading research, combining high-performance order matching with sophisticated trading strategies in a unified backtesting framework.
+The system demonstrates an implementation of algorithmic trading infrastructure with market simulation and diverse agent strategies.
